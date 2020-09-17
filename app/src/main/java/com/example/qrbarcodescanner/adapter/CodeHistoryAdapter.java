@@ -111,7 +111,7 @@ public class CodeHistoryAdapter extends RecyclerView.Adapter<CodeHistoryAdapter.
         });
     }
     public interface OnCode{
-        public void OnCodeClick(int position);
+         void OnCodeClick(int position);
     }
 
     @Override
